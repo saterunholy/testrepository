@@ -1,0 +1,15 @@
+name: '面积模式',
+            type: 'pie',
+            radius: [30, 90],
+            center: ['50%', '50%'],
+            roseType: 'area',
+            data: [
+                {value: 10, name: 'Leche'},
+                {value: 5, name: 'Huevos'},
+                {value: 15, name: 'Carne'},
+                {value: 25, name: 'Arroz'},
+                {value: 20, name: 'Frijoles'},
+                {value: 35, name: 'Tomate'},
+                {value: 30, name: 'Lechuga'},
+                {value: 40, name: 'Papel'}
+            ]

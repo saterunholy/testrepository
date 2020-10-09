@@ -1,0 +1,36 @@
+{
+  "type": "panel",
+  "name": "Softtek Pie Chart Template #6",
+  "id": "softtek-pc6",
+  "info": {
+    "description": "Softtek Pie panel for grafana",
+    "author": {
+      "name": "Softtek",
+      "url": "https://github.com/Billiballa"
+    },
+    "keywords": [
+      "echarts"
+    ],
+    "logos": {
+      "small": "img/pietemp6.png",
+      "large": "img/pietemp6.png"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/Billiballa/grafana-echarts"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/Billiballa/grafana-echarts/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "2.2.2",
+    "updated": "2020-06-11"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}
