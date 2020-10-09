@@ -94,7 +94,7 @@ return {
                 opacity: 1
             }
   },
-     ]
+     ],
 };`;
 
 // const getOption = `function (${funcParams}) {
