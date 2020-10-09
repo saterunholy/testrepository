@@ -95,7 +95,7 @@ return {
             }
   },
      ],
-};
+};`;
 
 // const getOption = `function (${funcParams}) {
 //   ${funcBody}
