@@ -3,17 +3,17 @@ export const funcParams = 'data, theme, echartsInstance, echarts';
 const funcBody = `const series = data.series.map((s) => {
   const sData = s.fields.find((f) => f.name === 'value').values.buffer;
   const sTime = s.fields.find((f) => f.name === 'pelicula').values.buffer;
-  
+
   return {
-    sData , sTime 
+    sData , sTime
   };
 });
 
 const test = series[0].sData.map((item,i) => {
 
   return {
-  value:  series[0].sData[i], 
-  name: series[0].sTime[i], 
+  value:  series[0].sData[i],
+  name: series[0].sTime[i],
   itemStyle: {color: '#AA4FAA', borderColor: '#000000', shadowBlur: 200}
    }}
   );
@@ -51,7 +51,7 @@ return {
   xAxis: Object.assign(
     {
       type: 'time',
-    },
+  },
     axisOption
   ),
   yAxis: Object.assign(
@@ -78,7 +78,7 @@ return {
                 position: 'inner',
                 fontWeight: 'bold'
             },
-            data: test           
+            data: test
     },
   ],
    graphic: [
@@ -94,7 +94,7 @@ return {
                 opacity: 1
             }
   },
-     ],
+     ]
 };`;
 
 // const getOption = `function (${funcParams}) {
@@ -105,14 +105,13 @@ return {
 // const funcBody = matchResult ? matchResult[1] : '';
 
 export interface SimpleOptions {
-  followTheme: boolean,
+  followTheme: boolean;
   getOption: string;
 }
 
 export const defaults: SimpleOptions = {
   followTheme: false,
   getOption: funcBody,
-}
-
+};
 
 
